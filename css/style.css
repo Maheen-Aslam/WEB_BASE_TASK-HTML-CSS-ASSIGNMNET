@@ -1,0 +1,117 @@
+body{
+    background-color: #a091b6;
+    color: rgba(237, 238, 239, 0.552);
+   color: aliceblue;
+   border: 50px;
+   padding: 80px 50px 50px 50px;
+}
+nav{
+    padding: 10px 10px 10px 10px ;
+
+}
+.left{
+    padding: 12px 10px 10px 10px;
+    color: #230225;
+}
+.about h2{
+    color: #230225;
+    padding-top: 60px;
+}
+img{
+    height:400px ;
+    width: 400px;
+    margin: 10px 10px 10px 10px;
+}
+.right {
+    padding: 10px 10px 10px 10px;
+
+    color: #230225;
+        /* Positioning for text container */
+        position: relative;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        border: 60px 60px 60px 60px;
+       padding: 30px 30px 50px 50px;
+        font-size: 1em;
+        
+        /* Add additional styling for the text container */
+    
+}
+.right p{
+    font-size: 1em;
+}
+a{
+    text-decoration: none;
+    font-size:0.1em;
+    color: rgb(245, 231, 231);
+    margin: 10px 10px 20px 20px;
+}
+div{
+    color: rgba(237, 236, 240, 0.951);
+    word-spacing: 20px;
+   text-align: center;
+   font-size: 3.5em;
+}
+.about img{
+    height:400px ;
+    width: 400px;
+    margin: 10px 10px 10px 10px;
+}
+.about p{
+    font-size: 0.3em;
+    text-align: center;
+    word-spacing: 20px;
+    line-height: 50px;
+    padding:20px 20px 20px 20px;
+    color:antiquewhite;
+}
+footer {
+    background-color: #a091b6;
+    padding: 20px;
+    font-size: 0.3em;
+    text-align: center;
+}
+
+.contact {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact h2 {
+    margin-bottom: 20px;
+}
+
+.contact form {
+    display: grid;
+    grid-gap: 10px;
+}
+
+.contact label {
+    font-weight: bold;
+}
+
+.contact input,
+.contact textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.contact button {
+    width: 100%;
+    padding: 10px;
+    background-color: #735077;
+    color: #eae3eb;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact button:hover {
+    background-color: #aa00b3;
+}
